@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+    color: #64018b;
+    font-weight: bold;
+}
+
+/* Header Part */
+
+.header-part {
+    display: flex;
+    margin: 50px 100px;
+}
+
+.header-left {
+    width: 100%;
+}
+
+.header-left h1 {
+    font-size: 50px;
+    border-left: 5px solid #64018b;
+    padding-left: 10px;
+    color: #1f1f1f;
+}
+
+.header-left p {
+    padding: 30px 0;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.header-img img {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.header-left button {
+    padding: 15px 40px;
+    background-image: linear-gradient(#70019c, #aa0ee7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Mission part */
+.mission {
+    margin: 0 100px;
+}
+
+.mission h1 {
+    text-align: center;
+    padding: 40px 0;
+    color: #1f1f1f;
+}
+
+.mission-cart {
+    display: flex;
+
+}
+
+.cart-1 {
+    padding: 30px 15px;
+    background: #e4a0ff6e;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.cart-1 h3 {
+    padding: 15px 0;
+}
+
+.cart-1 img {
+    width: 50%;
+}
+
+.cart-2 {
+    padding: 30px 15px;
+    margin: 0 20px;
+    background: #a9a0ff79;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.cart-2 img {
+    width: 50%;
+}
+
+.cart-2 h3 {
+    padding: 15px 0;
+}
+
+.cart-3 {
+    padding: 30px 15px;
+    background: #a0ffcb8c;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.cart-3 img {
+    width: 50%;
+}
+
+.cart-3 h3 {
+    padding: 15px 0;
+}
+
+/* about part */
+
+.about {
+    margin: 50px 100px;
+}
+
+.about-1 {
+    display: flex;
+    margin-bottom: 40px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 350px;
+}
+
+.about-1 img {
+    width: 70%;
+    padding-left: 15%;
+}
+
+.about-1 h1 {
+    font-size: 40px;
+    padding-top: 10%;
+}
+
+.about-1 p {
+    padding: 30px 0;
+
+}
+
+.about-1 button {
+    padding: 15px 40px;
+    background-image: linear-gradient(#70019c, #aa0ee7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.about-2 {
+    display: flex;
+    margin-bottom: 40px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: right;
+}
+
+.about-2 img {
+    width: 70%;
+    padding-left: 10%;
+
+}
+
+.about-2 h1 {
+    font-size: 40px;
+    padding-top: 10%;
+}
+
+.about-2 p {
+    padding: 30px 0;
+
+}
+
+.about-2 button {
+    padding: 15px 40px;
+    background-image: linear-gradient(#70019c, #aa0ee7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* build part */
+.build {
+    margin: 0 100px 50px 100px;
+}
+
+.build h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.build h1 span {
+    color: #64018b;
+}
+
+.build-detail {
+    display: flex;
+    padding-top: 40px;
+}
+
+.build-img {
+    background-image: url(images/shapes/shape-7.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 250px;
+
+}
+
+.build-img img {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20px;
+    background-image: url(images/shapes/shape-6.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+
+.build-des {
+    width: 100%;
+}
+
+.build-detail h2 {
+    padding-top: 20%;
+    font-size: 46px;
+}
+
+.build-detail h2 span {
+    color: #64018b;
+}
+
+.build-detail p {
+    padding: 30px 0;
+}
+
+.build-detail button {
+    padding: 15px 40px;
+    background-image: linear-gradient(#70019c, #aa0ee7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+Footer {
+    background: rgba(212, 212, 212, 0.411);
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0px 10px 15px;
+}
+
+Footer h1 {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.911);
+}
+
+Footer h1 span {
+    color: #64018b;
+}
+
+Footer p {
+    color: #686868;
+}
